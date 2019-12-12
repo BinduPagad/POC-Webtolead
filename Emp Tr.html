@@ -1,0 +1,99 @@
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  ----------------------------------------------------------------------  -->
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+<input type=hidden name="oid" value="00D2w000000DIMw">
+<input type=hidden name="retURL" value="http://www.redbusmedia.com/contact-us-">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail"                                  -->
+<!--  value="bindupagad181997@gmail.com">                                     -->
+<!--  ----------------------------------------------------------------------  -->
+<body bgcolor="white">
+<center><h1> Welcome to redBus</h1></center>
+<center><img src="C:\Users\bindu.pagad\Pictures\abc.jpg"  width="350" height="150"></center>
+
+<p><center>
+<div class="form">
+<h3> <b> Quick Quote </b> </h3>
+
+<label for="company">Company </label><input  id="company"  maxlength="40" name="company" size="20" type="text" required  /><br><br>
+
+<label for="first_name">First Name </label><input  id="first_name"  maxlength="40" name="first_name" size="20" type="text"   required /><br><br>
+
+<label for="last_name">Last Name </label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" required   /><br><br>
+
+<label for="email">Email </label><input  id="email" maxlength="80" name="email" size="20" type="text"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+title="characters followed by an @ sign, followed by more characters, and then a '.' then add at least 2 letters from a to z" required /><br><br>
+
+<label for="mobile">Mobile </label><input  id="mobile" maxlength="40" name="mobile" size="20" type="text"  pattern="^\d{10}$" title="Format: xxxxxxxxxx" required /><br><br>
+
+<label for="city">City </label><input  id="city" maxlength="40" name="city" size="20" type="text"  /><br><br>
+
+<label for="Select Vehicle">Select Vehicle </label><select  id="00N2w000002Chy8" name="00N2w000002Chy8" title="Select Vehicle" required ><option value=""> --None--</option>
+<option value="MiniBus">MiniBus</option>
+<option value="MiniCoach Bus">MiniCoach Bus</option>
+<option value="Coach Bus">Coach Bus</option>
+<option value="Chatter Bus">Chatter Bus</option>
+<option value="Tempo Traveller">Tempo Traveller</option>
+</select><br><br>
+
+<label for="Vehicles Required">Vehicles Required </label><input  id="00N2w000002ChyI" name="00N2w000002ChyI" size="20" type="text" required  /><br><br>
+
+<label for="Wish To">Wish To </label><select  id="00N2w000002ChyN" name="00N2w000002ChyN" title="Wish To"><option value="">--None--</option>
+<option value="Rent/Month">Rent/Month</option>
+<option value="Lease">Lease</option>
+</select><br><br>
+</center>
+
+</div>
+
+<style type="text/css">
+    .form {
+        margin: 1 auto;
+        width: 300px;
+    }
+    .form label{
+        display: inline-block;
+        text-align: right;
+        float: left;
+    }
+    .form input{
+        display: inline-block;
+        text-align: left;
+        float: right;
+    }
+	.form  select{
+	display: inline-block;
+	width: 152px;
+        text-align:left;
+        float:right;
+		}
+		
+	
+</style>
+<center>
+ <p>
+    <label>
+      <input type="checkbox" value="terms" required>
+      I agree to the <a href="/terms">terms and conditions</a>
+    </label>
+  </p>
+  <input type="submit" name="submit">
+   <p> Thank you for showing interest in redBus. Hope you enjoy the service</p>
+  </center>
+
+</form>
